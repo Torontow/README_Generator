@@ -1,5 +1,5 @@
 {
-  "name": "readme_generator",
+  "name": "torontow_readme_generator",
   "version": "1.0.0",
   "description": "A command-line README generator.",
   "main": "index.js",
