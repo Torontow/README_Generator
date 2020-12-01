@@ -110,7 +110,7 @@ This project is covered under ${answers.license[0]} license.
 Email: [${answers.email}](Mailto:${answers.email}) 
 
 
-[Top](# ${answers.title})
+[Top](#${answers.title})
 `;
 
 
