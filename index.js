@@ -42,7 +42,6 @@ const promptUser = () =>
             type: 'list',
             name: 'license',
             message: 'Please choose a license for your project.',
-            default: 'MIT',
             choices: [
                 {
                     name: 'ISC',
@@ -57,6 +56,10 @@ const promptUser = () =>
                     name: 'MIT',
                     value: ['MIT','[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'],
                 },
+                {
+                    name: 'Not sure yet',
+                    value: ['no','No License']
+                }
             ]
         },
     ]);
@@ -103,7 +106,7 @@ Email: [${answers.email}](${answers.email})
 
 ## License
 
-This project is covered under the ${answers.license[0]} license.
+This project is covered under ${answers.license[0]} license.
 Email: [${answers.email}](Mailto:${answers.email}) 
 
 
