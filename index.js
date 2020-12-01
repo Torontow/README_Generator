@@ -83,7 +83,7 @@ ${answers.tests}
 ## Questions/Contact
 
 GitHub Profile: [https://github.com/${answers.gitHubName}](https://github.com/${answers.gitHubName})
-Email: [${answers.email}](${answers.email})
+Email: [${answers.email}](Mailto:${answers.email}) 
 `;
 
 promptUser()
