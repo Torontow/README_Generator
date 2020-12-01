@@ -104,6 +104,7 @@ Email: [${answers.email}](${answers.email})
 ## License
 
 This project is covered under the ${answers.license[0]} license.
+Email: [${answers.email}](Mailto:${answers.email}) 
 `;
 
 
