@@ -23,6 +23,11 @@ const promptUser = () =>
         },
         {
             type: 'input',
+            name: 'usage',
+            message: 'Describe how to use your project.',
+        },
+        {
+            type: 'input',
             name: 'contributing',
             message: 'List contributors to your project.',
         },
@@ -43,42 +48,45 @@ const promptUser = () =>
         },
     ]);
 
-
 const generateReadme = (answers) =>
-    `# ${title} PROJECT TITLE
+`# ${answers.title}
 
 ## TABLE OF CONTENTS
 
 1. [Description](#Description)
-2. [Installation]
-3. [Usage]
-4. [Contributing]
-5. [Tests]
-6. [Questions/Contact]
+2. [Installation](#Installation)
+3. [Usage](#Usage)
+4. [Contributing](#Contributing)
+5. [Tests](#Tests)
+6. [Questions/Contact](#Questions/Contact)
 
 ## Description
 
-${}
+${answers.description}
 
 ## Installation
 
-${}
+${answers.installation}
 
 ## Usage
 
-${}
+${answers.usage}
 
 ## Contributing
 
-${} 
+${answers.contributing} 
 
 ## Tests
 
-${}
+${answers.tests}
 
 ## Questions/Contact
 
-[GitHub Profile: http://github.com/${}] (http://github.com/${})
-[Email: ${}]
-
+GitHub Profile: [https://github.com/${answers.gitHubName}](https://github.com/${answers.gitHubName})
+Email: [${answers.email}](${answers.email})
 `;
+
+promptUser()
+    .then((answers) => writeFileAsync('README.md', generateReadme(answers)))
+    .then(() => console.log('Successfully wrote to README.md'))
+    .catch((err) => console.error(err));
