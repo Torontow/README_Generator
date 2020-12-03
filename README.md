@@ -2,6 +2,12 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+## Description
+
+Welcome to Torontow! This is a simple and straightforward application that allows users to easily create a professional README.md file to accompany their builds by answering a series of project-related questions in the Command Line Interface.
+
+It was built using Node.js, and Inquirer.js.
+
 ## TABLE OF CONTENTS
 
 1. [Description](#Description)
@@ -12,9 +18,6 @@
 6. [Questions/Contact](#Questions/Contact)
 7. [License](#License)
 
-## Description
-
-Welcome to Torontow! This is a simple and straightforward application that allows users to easily create a professional README.md file to accompany their builds by answering a series of project-related questions in the Command Line Interface.
 
 ## Installation
 
@@ -24,7 +27,7 @@ Navigate to HERE to find the code for the **Torontow README Generator**. NOTE: T
 
 First, make sure you have the dependent applications installed. 
 
-Next, to run the generator, DO THIS. 
+Next, to run the generator, type NODE INDEX.JS in your CLI and press ENTER. 
 
 You will be asked a series of questions about your project (description, installation, usage, etc.). When you are satisfied with your input, press ENTER and you will be presented with another question.
 *Don't worry--if for any reason you need to edit your answers later, you can.
@@ -34,11 +37,11 @@ Once all the questions are answered, a README.md file will be generated and adde
 
 ## Contributing
 
-I did this one all by my lonesome, but I sure learned a lot doing it.
+If you would like to contribute to this project, please contact me with the information below. You are incouraged to follow the [Contributor Covenant](https://www.contributor-covenant.org/).
 
 ## Tests
 
-I built the appliction using VSCode and used the README Preview feature to make sure everything looked and functioned the way it needed to.
+I built the appliction using VSCode and used the README Preview feature to make sure everything looked and functioned the way it needed to. There are currently no tests built to test the project.
 
 ## Questions/Contact
 
