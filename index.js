@@ -17,7 +17,7 @@ const promptUser = () =>
         },
         {
             name: 'installation',
-            message: 'How do users install your project? Anything else they need for it to funciton as intended?',
+            message: 'How do users install your project? Do they need anything else for it to function as intended?',
         },
         {
             name: 'usage',
