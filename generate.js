@@ -16,9 +16,6 @@ ${answers.description}
 5. [Questions/Contact](#Questions/Contact)
 6. [License](#License)
 
-## Description
-
-
 ## Installation
 
 ${answers.installation}
