@@ -25,6 +25,8 @@ Navigate to HERE to find the code for the **Torontow README Generator**. NOTE: T
 
 ## Usage
 
+[This is a video showing the functionality of the project.](https://drive.google.com/file/d/1CNHfAFpVxhsa-K-oaS8BGMfbP6HyZflT/view?usp=sharing) Follow along with the instructions below.
+ 
 First, make sure you have the dependent applications installed. 
 
 Next, to run the generator, type NODE INDEX.JS in your CLI and press ENTER. 
