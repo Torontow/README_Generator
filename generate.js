@@ -3,19 +3,21 @@ const generateReadme = (answers) =>
 
 ${answers.license[1]}
 
+## Description 
+
+${answers.description}
+
 ## TABLE OF CONTENTS
 
-1. [Description](#Description)
-2. [Installation](#Installation)
-3. [Usage](#Usage)
-4. [Contributing](#Contributing)
-5. [Tests](#Tests)
-6. [Questions/Contact](#Questions/Contact)
-7. [License](#License)
+1. [Installation](#Installation)
+2. [Usage](#Usage)
+3. [Contributing](#Contributing)
+4. [Tests](#Tests)
+5. [Questions/Contact](#Questions/Contact)
+6. [License](#License)
 
 ## Description
 
-${answers.description}
 
 ## Installation
 

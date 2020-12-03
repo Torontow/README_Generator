@@ -13,19 +13,19 @@ const promptUser = () =>
         },
         {
             name: 'description',
-            message: 'Provide a description of your project.',
+            message: 'Provide a description of your project. Be sure to cover the "what", "why" and "how" of what you built.',
         },
         {
             name: 'installation',
-            message: 'How do users install your project for their use?',
+            message: 'How do users install your project? Anything else they need for it to funciton as intended?',
         },
         {
             name: 'usage',
-            message: 'Describe how to use your project.',
+            message: 'Explain how to use your project.',
         },
         {
             name: 'contributing',
-            message: 'List contributors to your project.',
+            message: 'Would you like others to contribute to your project? If so, are there guidelines they should follow?',
         },
         {
             name: 'tests',
